@@ -1,0 +1,97 @@
+body {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+#nav-bar1 {
+    text-align: left;
+}
+
+.nav-link1, .nav-link2, .nav-link3, .nav-link4 {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-ba1 {
+    text-align: right;
+}
+
+#img1 {
+    margin-top: 89px;
+    margin-bottom: 20px;
+}
+
+.search {
+    width: 20%;
+    height: 30px;
+}
+
+#buttons {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    color: #808080;
+    
+}
+
+.btn-set, .btn-set1 {
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+.btn-set:hover {
+    border-style: groove;
+}
+
+.cod-link {
+    text-decoration: none;
+    color: blue;
+}
+
+#nav-bar2 {
+    width: 100%;
+    height: 50px;
+    background-color:#F2F2F2;
+    font-size: 15px;
+    position: fixed; 
+    overflow: hidden;
+    bottom: 50px;
+    border-style: groove;
+    text-align: left;
+    justify-content: space-between;
+    margin-left: -8px;
+}
+
+#nav-bar3 {
+    width: 100%;
+    height: 50px;
+    background-color:#F2F2F2;
+    font-size: 15px;
+    overflow: hidden;
+    bottom: 0;
+    position: fixed;
+    border-style: groove;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -8px;
+}
+
+#bar-cus {
+    float: left;
+  margin: 0 1.5%;
+  width: 50%;
+}
+
+#bar-cuss {
+    float: right;
+  margin: 0 1.5%;
+  width: 50%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
